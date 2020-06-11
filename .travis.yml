@@ -1,0 +1,12 @@
+language: python
+
+python:
+    - "3.8"
+
+branches:
+    only:
+    - master
+
+script:
+    - make maybe_publish  # test, build wheel, and (if on tag) publish
+
