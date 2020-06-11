@@ -1,7 +1,6 @@
 # winrmcp
-<!-- [![Build Status](https://travis-ci.com/innodatalabs/redstork.svg?branch=master)](https://travis-ci.com/innodatalabs/redstork)
-[![PyPI version](https://badge.fury.io/py/redstork.svg)](https://badge.fury.io/py/redstork)
-[![Documentation Status](https://readthedocs.org/projects/red-stork/badge/?version=latest)](https://red-stork.readthedocs.io/en/latest/?badge=latest) -->
+[![Build Status](https://travis-ci.com/mkroutikov/winrmcp.svg?branch=master)](https://travis-ci.com/mkroutikov/winrmcp)
+[![PyPI version](https://badge.fury.io/py/winrmcp.svg)](https://badge.fury.io/py/winrmcp)
 
 A Python library to execute remote commands on Windows (cmd.exe and PowerShell), and to transfer files.
 
