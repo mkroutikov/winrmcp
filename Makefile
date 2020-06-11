@@ -5,7 +5,7 @@ all: wheel
 ON_TAG := $(shell git tag --points-at HEAD)
 
 test:
-	pip install pytest
+	pip install -r requirements.txt pytest
 	pytest
 
 wheel: test
