@@ -187,7 +187,7 @@ def upload_chunks(shell, file_path : str, max_chunks : int, fileobj):
             return True  # means "done"
 
         chunk = base64.b64encode(chunk).decode('ascii')
-        shell.check_cmd(['echo', chunk, '>>', file_path])
+        shell.check_cmd('echo', chunk, '>>', file_path)
 
     return False  # not yet done, just max_chunks exhausted
 
