@@ -35,7 +35,7 @@ with client.shell() as shell:
 
 client.copy('/home/mike/temp/build.bat', '%TEMP%\\build.bat')
 with client.shell() as shell:
-    shell.check_call('cmd.exe', '/k', '%TEMP%\\build.bat)
+    shell.check_call('cmd.exe', '/k', '%TEMP%\\build.bat')
 ```
 
 ## API
